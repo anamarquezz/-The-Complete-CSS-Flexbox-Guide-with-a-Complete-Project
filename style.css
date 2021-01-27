@@ -20,6 +20,7 @@ body{
 .flex-container{
     margin:1em 0;
     border:1px solid white;
+    height: 350px;
 }
 
 .flex-item{
@@ -48,10 +49,10 @@ p{
     font-size: 1.5em;
 }
 
-.flex-container{
-    height: 300px;
+.flex-container{    
     display: flex;
-    flex-flow:column-reverse;   
+     width: 400px;
+    flex-wrap: wrap-reverse;  
 }
 
 .flex-item{
