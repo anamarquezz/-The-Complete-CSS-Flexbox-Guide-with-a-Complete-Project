@@ -51,8 +51,7 @@ p{
 .flex-container{
     height: 300px;
     display: flex;
-    flex-flow:row;
-    justify-content: space-between;
+    flex-flow:column-reverse;   
 }
 
 .flex-item{
